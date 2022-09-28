@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c56044c800cbd236856898efc9792b75 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c56044c800cbd236856898efc9792b75" ></div>
+        
+</body>
+<script>    
+    
+            var map_c56044c800cbd236856898efc9792b75 = L.map(
+                "map_c56044c800cbd236856898efc9792b75",
+                {
+                    center: [14.427362, 75.94025],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f3af94d2a8cfb93b8b0667b0253d809 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_e33b727a41cf341000e4354c928e648a = L.marker(
+                [14.427362, 75.94025],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_e33b727a41cf341000e4354c928e648a.bindTooltip(
+                `<div>
+                     SOG COLONY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ace6c41724e80fa268c7f516ee25f20a = L.circle(
+                [14.427362, 75.94025],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_c8df7f4801ef121503b4c376b9e04f87 = L.marker(
+                [14.432749, 75.940659],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_c8df7f4801ef121503b4c376b9e04f87.bindTooltip(
+                `<div>
+                     SS HOSPITAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10eac25711580b05fed82e1df67b4ab4 = L.circle(
+                [14.432749, 75.940659],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_bfc2947c8aec2253ce626c503d959047 = L.marker(
+                [14.437659, 75.939536],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_bfc2947c8aec2253ce626c503d959047.bindTooltip(
+                `<div>
+                     SS HOSPITAL Rd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2440387f1b38ab819ba17cb0c1ba7393 = L.circle(
+                [14.437659, 75.939536],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_cd11b1d1e75c945e1ff78c7d20242604 = L.marker(
+                [14.438804, 75.938658],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_cd11b1d1e75c945e1ff78c7d20242604.bindTooltip(
+                `<div>
+                     Sai Baba Temple
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4fa4be97d2f0c4661c18b049b29d25a5 = L.circle(
+                [14.438804, 75.938658],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_842b97e27696af4968b5bbf2dceb53df = L.marker(
+                [14.440534, 75.937227],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_842b97e27696af4968b5bbf2dceb53df.bindTooltip(
+                `<div>
+                     SS hitech layout
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_87616f37467db5ef45c06b7e86789f61 = L.circle(
+                [14.440534, 75.937227],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_9d4419800b8ef02334bf58ea0980f1e5 = L.marker(
+                [14.441798, 75.935992],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_9d4419800b8ef02334bf58ea0980f1e5.bindTooltip(
+                `<div>
+                     SJAYANAGARA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4e277465caee37d2a1ab4c176f768f6c = L.circle(
+                [14.441798, 75.935992],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_23069022d444830eea159428f17dd7a0 = L.marker(
+                [14.443061, 75.934117],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_23069022d444830eea159428f17dd7a0.bindTooltip(
+                `<div>
+                     Jayanagara B Block
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7bdeba788b5dddadd2f4ff038f080a53 = L.circle(
+                [14.443061, 75.934117],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_1992e10395a4279a7ff6cce78541e79f = L.marker(
+                [14.44383, 75.933126],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_1992e10395a4279a7ff6cce78541e79f.bindTooltip(
+                `<div>
+                     Kalidasa circle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1416cb694fd7d4b8969856f65ff3038e = L.circle(
+                [14.44383, 75.933126],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_a596f9f186e5bfae79b36820210c5aeb = L.marker(
+                [14.444694, 75.933282],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_a596f9f186e5bfae79b36820210c5aeb.bindTooltip(
+                `<div>
+                     Church Jayanagara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fe08f2886774b6a22d54fca0d37aec6f = L.circle(
+                [14.444694, 75.933282],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_31ab906faf5dd8f14b76bd77a63ccced = L.marker(
+                [14.4481033, 75.9329552],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_31ab906faf5dd8f14b76bd77a63ccced.bindTooltip(
+                `<div>
+                     SBHAGI/KALI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f039a52a8989f84cc1a7623b0f556ff5 = L.circle(
+                [14.4481033, 75.9329552],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_3b81eb14757509051a0b021261d3ea6e = L.marker(
+                [14.447115, 75.935593],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_3b81eb14757509051a0b021261d3ea6e.bindTooltip(
+                `<div>
+                     Sakthi Nagar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a6b03843257ee6a129c709b17e8c53b = L.circle(
+                [14.447115, 75.935593],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_48bda8e724ee7acd725fb9992bd74796 = L.marker(
+                [14.449058, 75.936011],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_48bda8e724ee7acd725fb9992bd74796.bindTooltip(
+                `<div>
+                     Banashankri temple
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f12e617968bb4aed43cd20f6e6b27731 = L.circle(
+                [14.449058, 75.936011],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_d732d50b7a5d0ad0f5a2a11abf536e1b = L.marker(
+                [14.45013, 75.935866],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_d732d50b7a5d0ad0f5a2a11abf536e1b.bindTooltip(
+                `<div>
+                     DCM 2nd stop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1eca19eb4052843e0c15c5b4e625dd17 = L.circle(
+                [14.45013, 75.935866],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_a1914b3bc8dc8dccd424bd5cc68ba210 = L.marker(
+                [14.45013, 75.935866],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_a1914b3bc8dc8dccd424bd5cc68ba210.bindTooltip(
+                `<div>
+                     DCM 2nd stop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1c0d99e0a36f5eb573439851cf36962e = L.circle(
+                [14.45013, 75.935866],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_b08ec10695304327c003d5ccb4e0b7d3 = L.marker(
+                [14.45227, 75.937213],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_b08ec10695304327c003d5ccb4e0b7d3.bindTooltip(
+                `<div>
+                     DCM water tank
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f760d93ca36ac747ce675dad127c50eb = L.circle(
+                [14.45227, 75.937213],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_9eb15001d983dbe75ea68fc319331064 = L.marker(
+                [14.452885, 75.9363443],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_9eb15001d983dbe75ea68fc319331064.bindTooltip(
+                `<div>
+                     Boomika Nagar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3bbcd04ed001dc3641e944eba0939946 = L.circle(
+                [14.452885, 75.9363443],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_7390afdf4c0dac73441e7d95385b2c0a = L.marker(
+                [14.454334, 75.936115],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_7390afdf4c0dac73441e7d95385b2c0a.bindTooltip(
+                `<div>
+                     DCM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_efd01ca7078d6010dcd4395e870a1d8b = L.circle(
+                [14.454334, 75.936115],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_b736a74e573d2634fc8ca8a5debe3272 = L.marker(
+                [14.459186, 75.932063],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_b736a74e573d2634fc8ca8a5debe3272.bindTooltip(
+                `<div>
+                     APMC Gate
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b43bb24bb448f194dd70b12f1eb12452 = L.circle(
+                [14.459186, 75.932063],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_15d9645d63744eb2548e2b4c5aa71a7c = L.marker(
+                [14.459873, 75.931157],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_15d9645d63744eb2548e2b4c5aa71a7c.bindTooltip(
+                `<div>
+                     KSRTC NEW BUS Stand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6d310652670ba7db7721bf5082b96ff7 = L.circle(
+                [14.459873, 75.931157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_36b3551d8a0d076c752f03ebe4c25af8 = L.marker(
+                [14.465978, 75.924113],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_36b3551d8a0d076c752f03ebe4c25af8.bindTooltip(
+                `<div>
+                     Aahar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c66f6b48d4c359f64377f96ffc4c52bc = L.circle(
+                [14.465978, 75.924113],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_6c45b323e1e97906bde0f8697d3a603c = L.marker(
+                [14.467007, 75.922581],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_6c45b323e1e97906bde0f8697d3a603c.bindTooltip(
+                `<div>
+                     Old Bus Stand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db4826a609f6bd8e9fed7b6881813b7f = L.circle(
+                [14.467007, 75.922581],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_3f35a8891db7e33efa70eae97820917f = L.marker(
+                [14.4674194, 75.9194217],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_3f35a8891db7e33efa70eae97820917f.bindTooltip(
+                `<div>
+                     Railway station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_70a8eb9c97dc8a65d76f391e3412e248 = L.circle(
+                [14.4674194, 75.9194217],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_0f29f02d25d680864a4e273c0cbeab05 = L.marker(
+                [14.46713, 75.918539],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_0f29f02d25d680864a4e273c0cbeab05.bindTooltip(
+                `<div>
+                     Harihar bus stop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b0e3c052579ecc3d6b4f7bb28c59c46c = L.circle(
+                [14.46713, 75.918539],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_0bb9b15f0246be52f51c50f7c740a6d7 = L.marker(
+                [14.465233, 75.917289],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_0bb9b15f0246be52f51c50f7c740a6d7.bindTooltip(
+                `<div>
+                     KSRTC Temporary Bus stand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a757341e93979c3b35a065e32dbcb21f = L.circle(
+                [14.465233, 75.917289],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_f4168e3d3ae9cddc96887f3934c01d05 = L.marker(
+                [14.4628311, 75.9178242],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_f4168e3d3ae9cddc96887f3934c01d05.bindTooltip(
+                `<div>
+                     AVK College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9edc80daba3c4b263a067b219c3bac9c = L.circle(
+                [14.4628311, 75.9178242],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_00a94a9d3be78683956c069c9443a5f9 = L.marker(
+                [14.460079, 75.91868],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_00a94a9d3be78683956c069c9443a5f9.bindTooltip(
+                `<div>
+                     SKEB/VBHAVAN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2fb92f4375771e21f5f8d255a4ff2531 = L.circle(
+                [14.460079, 75.91868],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_40ac4bc535b2aa0ca0fc7e993782fe8f = L.marker(
+                [14.458463, 75.917377],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_40ac4bc535b2aa0ca0fc7e993782fe8f.bindTooltip(
+                `<div>
+                     Shamnur rd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cf8965b9db3b5d2a73857b482dfc0007 = L.circle(
+                [14.458463, 75.917377],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_c79c96e835cca7d24da384934eb9af4d = L.marker(
+                [14.4576282, 75.9149311],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_c79c96e835cca7d24da384934eb9af4d.bindTooltip(
+                `<div>
+                     CGHOSPITAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_99e980af400097e149e2baed38cc244d = L.circle(
+                [14.4576282, 75.9149311],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_7d1f4d9cde05d5838813b40d01c24a6e = L.marker(
+                [14.456979, 75.911386],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_7d1f4d9cde05d5838813b40d01c24a6e.bindTooltip(
+                `<div>
+                     Water Tank
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ea747e59a1ddf4ee2760904a8c7a2e51 = L.circle(
+                [14.456979, 75.911386],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_e3d07427dc698affc907f51757832d06 = L.marker(
+                [14.456329, 75.906714],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_e3d07427dc698affc907f51757832d06.bindTooltip(
+                `<div>
+                     LAKSHMIFLOO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_653e37e07e1592d5b9e146d7f6fde156 = L.circle(
+                [14.456329, 75.906714],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_2ce114c02c39f5e050383ac093102950 = L.marker(
+                [14.4552111, 75.9056638],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_2ce114c02c39f5e050383ac093102950.bindTooltip(
+                `<div>
+                     SS Mall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_87cfa4373de0459ee8362a6b6a510043 = L.circle(
+                [14.4552111, 75.9056638],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_582a99e8f30d777a11094b0cfef01cd2 = L.marker(
+                [14.452759, 75.904327],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_582a99e8f30d777a11094b0cfef01cd2.bindTooltip(
+                `<div>
+                     Karnataka Bank
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3640ff76d99e198f3698d652e9b9a824 = L.circle(
+                [14.452759, 75.904327],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_c32bd0f80c625c533b90f0b2c7e0f981 = L.marker(
+                [14.448141, 75.901662],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_c32bd0f80c625c533b90f0b2c7e0f981.bindTooltip(
+                `<div>
+                     Bapuji samuthaya Bhavan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_568be7db02e07a118e88e736f95a7273 = L.circle(
+                [14.448141, 75.901662],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_173082aaa63cd2f603369f12daa438ef = L.marker(
+                [14.447367, 75.901242],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_173082aaa63cd2f603369f12daa438ef.bindTooltip(
+                `<div>
+                     Bottle Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_af809bb269645a5fb39018525f858fe7 = L.circle(
+                [14.447367, 75.901242],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            var marker_0205bd8a4c67caeb68197ff3ee5e7387 = L.marker(
+                [14.440576, 75.899041],
+                {}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+    
+            marker_0205bd8a4c67caeb68197ff3ee5e7387.bindTooltip(
+                `<div>
+                     SHAMANUR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b60686c53f64a765b6d08993539426b0 = L.circle(
+                [14.440576, 75.899041],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(map_c56044c800cbd236856898efc9792b75);
+        
+</script>
